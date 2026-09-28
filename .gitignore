@@ -1,0 +1,32 @@
+# Temporary and scratch files
+__pycache__/
+*.pyc
+~$*
+.DS_Store
+Thumbs.db
+
+# Ignore all confidential files (slides, exams, exercises, internal documents)
+*.pptx
+*.ppt
+*.pdf
+*.png
+*.jpg
+*.rtf.doc
+*.doc
+Matsek S2/
+
+# Ignore all other docx except the official syllabus (RPS)
+*.docx
+!RPS_Konsep_Matematika_PGSD_2026.docx
+
+.vercel
+.env*
+
+# Dokumen evaluasi, soal, kunci jawaban, dan tugas privat
+*Kunci_Jawaban*
+*Rubrik*
+*Tugas*
+*Soal*
+*UTS*
+*UAS*
+*Pengganti*
